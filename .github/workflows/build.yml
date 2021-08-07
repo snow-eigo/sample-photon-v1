@@ -32,7 +32,7 @@ jobs:
             allowDirtyBuild: true
             targetPlatform: ${{ matrix.targetPlatform }}
             unityVersion: 2020.3.10f1
-            buildMethod: Editor.Builder.CgsBuilder.Build
+            buildMethod: EditorBuilder.CgsBuilder.Build
 
         - name: Upload ${{ matrix.targetPlatform }} build 
           uses: actions/upload-artifact@v2

@@ -7,7 +7,7 @@ using UnityEditor.Build.Reporting;
 using UnityEngine;
 
 
-namespace Editor.Builder
+namespace EditorBuilder
 {
     public class CgsBuilder : MonoBehaviour
     {
