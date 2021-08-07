@@ -1,4 +1,4 @@
-name: Build
+name: Build Photon Sample v1
 
 on:
   workflow_dispatch: {}
